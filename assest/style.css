@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "charlot";
+    src: url(Charlotte\ Southern.ttf);
+}
+@font-face {
+    font-family: "futuram";
+    src: url(futura\ medium\ bt.ttf);
+}
+
+
+#header{
+    margin: 20px !important;
+}
+#header .navbar .navbar-toggler{
+    border: none !important;
+}
+#header .navbar .navbar-toggler .fal{
+    color: #000 !important;
+    font-size: 2.3rem !important;    
+}
+#header .navbar .navbar-nav{
+    margin-right: 10px !important;
+    position: absolute;
+    top: 50px !important;
+    right: 15px !important;
+}
+#header .navbar .navbar-nav .nav-item .nav-link{
+    font-family: futuram , 'sans-sarif';
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    color: #000 !important;
+    padding: 5px !important;
+}
+#header .navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #4e4e4e !important;
+}
+/* home  */
+ #home .mainlogo{
+     margin-top: 100px !important;
+}
+
+/* home  */
+
+/* socialicon */
+
+
+#socialicon .inline{
+    position: absolute;
+    right: 50px !important;
+    bottom: 30px !important;
+    display: block !important;
+}
+#socialicon a{
+    text-decoration: none !important;
+    color: #000 !important;
+    display: block !important;
+    font-size: 2rem;
+}
+/* socialicon */
+
+
+@media (max-width:765px) {
+    #header .container-fluid{
+        margin-right: -10px !important;
+   }
+   #header .navbar .navbar-nav{
+    margin-right: 0px !important;
+}
+}
